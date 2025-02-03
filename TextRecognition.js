@@ -1,9 +1,10 @@
 // ==UserScript==
-// @name:zh-CN   DeepSeek响应拦截器(文本识别版)
+// @name:zh-CN   DeepSeek响应拦截器(文字识别版)
 // @name         DeepSeek Response Interceptor(text recognition)
-// @namespace    https://github.com/Ahikl
-// @version      1.3
-// @description  当检测到指定屏蔽文本时，终止流式响应并恢复上一次有效的输出
+// @namespace    https://github.com/Ahikl/
+// @homepage     https://github.com/Ahikl/DeepSeek_Response_Interceptor
+// @version      1.5
+// @description  该脚本用于拦截DeepSeek屏蔽提示，并输出已缓存文本，重新加载网页失效。可自定义需要拦截的文本
 // @author       Ahikl
 // @match        https://chat.deepseek.com/*
 // @grant        none
